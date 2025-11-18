@@ -94,3 +94,33 @@ All stored in:
 
 - <a href = "https://github.com/vharshi1414/SHAP-Analysis-of-Customer-Churn-Prediction/commit/9b6a5fb3538e99247e34ccaf1c51afc15fa039a7"> Test_metrics </a>
 - <a href = "https://github.com/vharshi1414/SHAP-Analysis-of-Customer-Churn-Prediction/blob/main/test_predictions.csv"> Test_predictions </a>
+
+
+---
+
+## 🔍 SHAP Explainability
+
+### **Global Explanations**
+Generated and saved:
+- `shap_summary_beeswarm.png`
+- `shap_summary_bar.png`
+
+These explain which features influence churn the most.
+
+### **Local Explanations**
+5 customer examples:
+- Highest probability churner  
+- Lowest probability churner  
+- Median probability customer  
+- False positive (if any)  
+- False negative (if any)  
+
+Each includes:
+- Force plot HTML  
+- Waterfall PNG fallback  
+- Text explanation  
+
+Saved in:
+
+- <a href =" "> </a>
+- <a href =" "> </a>
