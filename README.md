@@ -145,14 +145,7 @@ These findings support targeted retention strategies such as:
 - Promoting long-term contract options  
 
 ---
-
-## 📦 Output Structure
-
-
-
-
-
-## 🧩 Technologies Used
+##  Technologies Used
 
 - Python  
 - Pandas, NumPy  
@@ -163,7 +156,7 @@ These findings support targeted retention strategies such as:
 - Joblib  
 
 
-## ✅ Conclusion
+##  Conclusion
 
 This project fully satisfies all required:
 - Tasks to Complete  
