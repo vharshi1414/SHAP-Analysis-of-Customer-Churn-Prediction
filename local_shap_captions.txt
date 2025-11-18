@@ -1,0 +1,15 @@
+Example highest_prob (pos 1109): prob=0.890, pred=1, true=1. Saved: failed.
+Interpretation: positive SHAP increases churn risk; negative SHAP decreases it.
+
+Example lowest_prob (pos 503): prob=0.003, pred=0, true=0. Saved: failed.
+Interpretation: positive SHAP increases churn risk; negative SHAP decreases it.
+
+Example median_prob (pos 916): prob=0.194, pred=0, true=0. Saved: failed.
+Interpretation: positive SHAP increases churn risk; negative SHAP decreases it.
+
+Example false_negative (pos 9): prob=0.368, pred=0, true=1. Saved: failed.
+Interpretation: positive SHAP increases churn risk; negative SHAP decreases it.
+
+Example false_positive (pos 1): prob=0.691, pred=1, true=0. Saved: failed.
+Interpretation: positive SHAP increases churn risk; negative SHAP decreases it.
+
