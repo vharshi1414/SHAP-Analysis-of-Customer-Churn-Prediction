@@ -37,6 +37,7 @@ According to the assignment requirements, this project demonstrates:
 
 Dataset: **Telco Customer Churn**  
 Source: Provided in project instructions.
+Dataset link:<a href ="https://github.com/vharshi1414/SHAP-Analysis-of-Customer-Churn-Prediction/blob/main/WA_Fn-UseC_-Telco-Customer-Churn.csv"> Telco Customer Churn Dataset </a>
 
 Key fields include:
 - Customer demographics  
