@@ -159,8 +159,5 @@ These findings support targeted retention strategies such as:
 
 ##  Conclusion
 
-This project fully satisfies all required:
-- Tasks to Complete  
-- Expected Deliverables  
-
-It provides a **complete ML system**, **interpretability**, and **business insights** suitable for real-world churn prevention.
+This project successfully developed an accurate and interpretable churn prediction system. XGBoost and Random Forest models were trained and evaluated, and SHAP analysis identified the most important churn drivers, such as tenure, contract type, and monthly charges.
+Both global and individual-level SHAP explanations provide meaningful insights that can help businesses reduce churn by targeting at-risk customers. The final model and explanations meet all project requirements and offer clear, actionable recommendations for customer retention.
