@@ -1,0 +1,80 @@
+{
+  "project": "SHAP Churn - Final",
+  "timestamp": "2025-11-18T10:41:48.616196",
+  "selected_model": "RandomForest",
+  "metrics": {
+    "selected_model": "RandomForest",
+    "best_threshold": 0.4500000000000001,
+    "accuracy": 0.8062455642299503,
+    "roc_auc": 0.8453357100415925,
+    "precision": 0.6438746438746439,
+    "recall": 0.6042780748663101,
+    "f1": 0.623448275862069,
+    "classification_report": {
+      "0": {
+        "precision": 0.8601134215500945,
+        "recall": 0.8792270531400966,
+        "f1-score": 0.8695652173913043,
+        "support": 1035.0
+      },
+      "1": {
+        "precision": 0.6438746438746439,
+        "recall": 0.6042780748663101,
+        "f1-score": 0.623448275862069,
+        "support": 374.0
+      },
+      "accuracy": 0.8062455642299503,
+      "macro avg": {
+        "precision": 0.7519940327123692,
+        "recall": 0.7417525640032034,
+        "f1-score": 0.7465067466266866,
+        "support": 1409.0
+      },
+      "weighted avg": {
+        "precision": 0.8027157616135306,
+        "recall": 0.8062455642299503,
+        "f1-score": 0.8042368028193142,
+        "support": 1409.0
+      }
+    }
+  },
+  "top_features": [
+    "f_75",
+    "f_74",
+    "cat__StreamingMovies_No",
+    "cat__StreamingMovies_No internet service",
+    "num__MonthlyCharges"
+  ],
+  "local_examples": [
+    {
+      "tag": "highest_prob",
+      "pos": 1109,
+      "file": "failed",
+      "note": "Positive SHAP \u2192 increases churn risk; negative SHAP \u2192 decreases churn risk."
+    },
+    {
+      "tag": "lowest_prob",
+      "pos": 503,
+      "file": "failed",
+      "note": "Positive SHAP \u2192 increases churn risk; negative SHAP \u2192 decreases churn risk."
+    },
+    {
+      "tag": "median_prob",
+      "pos": 916,
+      "file": "failed",
+      "note": "Positive SHAP \u2192 increases churn risk; negative SHAP \u2192 decreases churn risk."
+    },
+    {
+      "tag": "false_negative",
+      "pos": 9,
+      "file": "failed",
+      "note": "Positive SHAP \u2192 increases churn risk; negative SHAP \u2192 decreases churn risk."
+    },
+    {
+      "tag": "false_positive",
+      "pos": 1,
+      "file": "failed",
+      "note": "Positive SHAP \u2192 increases churn risk; negative SHAP \u2192 decreases churn risk."
+    }
+  ]
+}
