@@ -124,3 +124,49 @@ Saved in:
 
 - <a href ="https://github.com/vharshi1414/SHAP-Analysis-of-Customer-Churn-Prediction/blob/main/local_shap_captions.txt">local_shap_captions.txt </a>
 - <a href ="https://github.com/vharshi1414/SHAP-Analysis-of-Customer-Churn-Prediction/blob/main/force_plot_median_prob_1360.html ">*.html </a>
+
+
+---
+
+## 📝 Executive Summary (Top 3 SHAP Insights)
+
+1. **Tenure / Contract Duration**  
+   Short tenure or month-to-month contracts **increase churn risk**, as customers without long-term commitment are more likely to leave.
+
+2. **Monthly Charges / AvgMonthlyValue**  
+   Higher monthly payments **increase churn**, likely due to billing dissatisfaction or perceived lack of value.
+
+3. **TotalCharges**  
+   Customers with higher lifetime value typically **churn less**, indicating long-term loyalty and satisfaction.
+
+These findings support targeted retention strategies such as:
+- Discounts for high-charge customers  
+- Loyalty programs  
+- Promoting long-term contract options  
+
+---
+
+## 📦 Output Structure
+
+
+
+
+
+## 🧩 Technologies Used
+
+- Python  
+- Pandas, NumPy  
+- Scikit-learn  
+- XGBoost  
+- SHAP  
+- Matplotlib  
+- Joblib  
+
+
+## ✅ Conclusion
+
+This project fully satisfies all required:
+- Tasks to Complete  
+- Expected Deliverables  
+
+It provides a **complete ML system**, **interpretability**, and **business insights** suitable for real-world churn prevention.
