@@ -1,0 +1,80 @@
+SHAP Analysis of Customer Churn Prediction - Submission Report
+Based on project brief: 'Interpretable Machine Learning: SHAP Analysis of Customer Churn Prediction'.
+Generated at: 2025-11-17T12:28:33.460949
+
+1) Model choice & performance (test):
+{
+  "roc_auc_test": 0.8460926399545325,
+  "f1_test": 0.583963691376702,
+  "precision_test": 0.6724738675958188,
+  "recall_test": 0.516042780748663,
+  "classification_report": {
+    "0": {
+      "precision": 0.838680926916221,
+      "recall": 0.9091787439613527,
+      "f1-score": 0.8725081131200741,
+      "support": 1035.0
+    },
+    "1": {
+      "precision": 0.6724738675958188,
+      "recall": 0.516042780748663,
+      "f1-score": 0.583963691376702,
+      "support": 374.0
+    },
+    "accuracy": 0.8048261178140526,
+    "macro avg": {
+      "precision": 0.7555773972560199,
+      "recall": 0.7126107623550079,
+      "f1-score": 0.7282359022483881,
+      "support": 1409.0
+    },
+    "weighted avg": {
+      "precision": 0.7945635101768097,
+      "recall": 0.8048261178140526,
+      "f1-score": 0.7959178975544097,
+      "support": 1409.0
+    }
+  }
+}
+
+2) Global SHAP top features (by mean |SHAP|):
+1. Contract_Month-to-month
+2. tenure
+3. MonthlyCharges
+
+3) Global findings and actions:
+Executive summary - top actionable recommendations based on SHAP analysis:
+- Contract_Month-to-month: observed to be a top driver. Recommendation: monitor and modify policies related to Contract_Month-to-month (e.g., personalize pricing/plan, targeted outreach) to reduce churn risk.
+- tenure: observed to be a top driver. Recommendation: monitor and modify policies related to tenure (e.g., personalize pricing/plan, targeted outreach) to reduce churn risk.
+- MonthlyCharges: observed to be a top driver. Recommendation: monitor and modify policies related to MonthlyCharges (e.g., personalize pricing/plan, targeted outreach) to reduce churn risk.
+
+Short local actions: for high-risk customers (highest predicted probability), run targeted retention campaigns addressing the top positive SHAP contributors (discounts, personalized offers, support calls).
+
+4) Local captions for selected examples:
+
+Example highest_prob (index 1090):
+Example `highest_prob` (index 1090): model predicted churn probability = 0.925 (pred_label=1, true_label=1).
+The SHAP force plot shows the top positive (red/right) & negative (blue/left) feature contributions pushing the prediction toward churn (positive) or retention (negative). Interpretation: features with large positive SHAP values are the primary drivers increasing the customer's churn risk; features with large negative SHAP values reduce churn likelihood.
+Business implication: for this customer, target interventions should focus on reversing the largest positive contributors (e.g., reduce monthly charges, address service issues, or personalize offers) as identified in the plot.
+
+Example lowest_prob (index 793):
+Example `lowest_prob` (index 793): model predicted churn probability = 0.003 (pred_label=0, true_label=0).
+The SHAP force plot shows the top positive (red/right) & negative (blue/left) feature contributions pushing the prediction toward churn (positive) or retention (negative). Interpretation: features with large positive SHAP values are the primary drivers increasing the customer's churn risk; features with large negative SHAP values reduce churn likelihood.
+Business implication: for this customer, target interventions should focus on reversing the largest positive contributors (e.g., reduce monthly charges, address service issues, or personalize offers) as identified in the plot.
+
+Example median_prob (index 1360):
+Example `median_prob` (index 1360): model predicted churn probability = 0.173 (pred_label=0, true_label=0).
+The SHAP force plot shows the top positive (red/right) & negative (blue/left) feature contributions pushing the prediction toward churn (positive) or retention (negative). Interpretation: features with large positive SHAP values are the primary drivers increasing the customer's churn risk; features with large negative SHAP values reduce churn likelihood.
+Business implication: for this customer, target interventions should focus on reversing the largest positive contributors (e.g., reduce monthly charges, address service issues, or personalize offers) as identified in the plot.
+
+Example false_negative (index 9):
+Example `false_negative` (index 9): model predicted churn probability = 0.369 (pred_label=0, true_label=1).
+The SHAP force plot shows the top positive (red/right) & negative (blue/left) feature contributions pushing the prediction toward churn (positive) or retention (negative). Interpretation: features with large positive SHAP values are the primary drivers increasing the customer's churn risk; features with large negative SHAP values reduce churn likelihood.
+Business implication: for this customer, target interventions should focus on reversing the largest positive contributors (e.g., reduce monthly charges, address service issues, or personalize offers) as identified in the plot.
+
+Example false_positive (index 1):
+Example `false_positive` (index 1): model predicted churn probability = 0.814 (pred_label=1, true_label=0).
+The SHAP force plot shows the top positive (red/right) & negative (blue/left) feature contributions pushing the prediction toward churn (positive) or retention (negative). Interpretation: features with large positive SHAP values are the primary drivers increasing the customer's churn risk; features with large negative SHAP values reduce churn likelihood.
+Business implication: for this customer, target interventions should focus on reversing the largest positive contributors (e.g., reduce monthly charges, address service issues, or personalize offers) as identified in the plot.
+
+--- End of report ---
