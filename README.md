@@ -99,7 +99,7 @@ All stored in:
 
 ---
 
-## 🔍 SHAP Explainability
+##  SHAP Explainability
 
 ### **Global Explanations**
 Generated and saved:
@@ -129,7 +129,7 @@ Saved in:
 
 ---
 
-## 📝 Executive Summary (Top 3 SHAP Insights)
+##  Executive Summary (Top 3 SHAP Insights)
 
 1. **Tenure / Contract Duration**  
    Short tenure or month-to-month contracts **increase churn risk**, as customers without long-term commitment are more likely to leave.
